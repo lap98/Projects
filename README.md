@@ -1,12 +1,13 @@
 # Projects
 
-All my projects are currently private.
-Contact me if you want to know more.
+All my projects are currently private. Feel free to contact me if you want to know more.
+
+## Project Table
 
 | Plugin | README |
 | ------ | ------ |
 | ThumbLed | Private |
-| Santorini_Game | Private |
+| Santorini Game | Private |
 | NEQR_Quantum_Computing | Private |
 | Software_Engineering_CLup | Private |
 | Working_Zone | Private |
@@ -16,7 +17,10 @@ Contact me if you want to know more.
 | Robot Odometry | Private |
 | Robot Localization | Private |
 
-## Robot Odometry
+## Projects Preview
+Here some previews of my projects
+
+### Robot Odometry
 
 ![scout_robot_image](resources/images/scout2.png)
 
@@ -32,7 +36,7 @@ Using Robot Operating System (ROS) we have pursued are the following goals:
 
 ![scout_robot_image](resources/images/scout2.png)
 
-## Robot Localization
+### Robot Localization
 
 [Scout 2.0](https://www.agilex.ai/index/product/id/2) is an indoor and outdoor mobile platform, dedicated to the development of multiple applications in higher education, research and industry.
 
@@ -46,5 +50,12 @@ Using Robot Operating System (ROS) we have pursued are the following goals:
 - create of a map from the recorded data above;
 - fuse different data sources using *robot_localization* package;
 - localize the robot using *amcl* package and *robot_localization* package.
+
+![scout_robot_image](resources/images/scout2.png)
+
+
+### Santorini Game
+
+Enjoy a unique gaming experience with the digital version of the tabletop game Santorini 
 
 ![scout_robot_image](resources/images/scout2.png)
