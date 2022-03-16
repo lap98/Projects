@@ -13,8 +13,8 @@ Contact me if you want to know more.
 | Visual_Question_Answering | Private |
 | Crop_Segmentation | Private |
 | Face_Mask_Detector | Private |
-| First_Robotic_Project | Private |
-| Second_Robotic_Project | Private |
+| Robot Odometry | Private |
+| Robot Localization | Private |
 
 ## Robot Odometry
 
