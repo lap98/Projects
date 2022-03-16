@@ -59,3 +59,13 @@ Using Robot Operating System (ROS) we have pursued are the following goals:
 Enjoy a unique gaming experience with the digital version of the tabletop game Santorini 
 
 ![scout_robot_image](resources/images/scout2.png)
+
+### Improved NEQR Compression
+Writing a paper on images compression in Quantum Computers and relative implementation.
+
+<p align="center">
+    Abstract
+</p>
+
+*This paper presents the implementation of NEQR and its compression. The aim of the paper is to highlight the practical limits of the
+compression theorized so far and to propose an improvement which can be implemented grouping CNOT gates that have the same control information. At the end of the report we present some results we obtain highlighting the improvement achieved in the compression phase.*
