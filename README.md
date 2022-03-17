@@ -6,23 +6,23 @@ Feel free to contact me if you want to know more.
 
 ## Project Table
 
-| Plugin | README |
+| Project | Link |
 | ------ | ------ |
-| Thumb Led | Private |
-| Santorini Game | Private |
-| Improved NEQR Compression | Private |
-| CLup | Private |
-| Working Zone | Private |
-| Visual Question Answering | Private |
-| Crop Segmentation | Private |
-| Face Mask Detector | Private |
-| Robot Odometry | Private |
-| Robot Localization | Private |
+| [Thumb Led](#ThumbLed)| Private |
+| [Santorini Game](#SantoriniGame)| Private |
+| [Improved NEQR Compression](#ImprovedNEQRCompression)| Private |
+| [CLup](#CLup) | Private |
+| [Working Zone](#WorkingZone) | Private |
+| [Visual Question Answering](#VisualQuestionAnswering) | Private |
+| [Crop Segmentation](#CropSegmentation) | Private |
+| [Face Mask Detector](#FaceMaskDetector) | Private |
+| [Robot Odometry](#RobotOdometry) | Private |
+| [Robot Localization](#RobotLocalization) | Private |
 
-## Thumb Led
+## Thumb Led <a name="ThumbLed">
 One week project in which ..... 
 
-## Robot Odometry
+## Robot Odometry <a name="RobotOdometry">
 
 ![scout_robot_image](resources/images/scout2.png)
 
@@ -38,7 +38,7 @@ Using Robot Operating System (ROS) we have pursued are the following goals:
 
 ![scout_robot_image](resources/images/scout2.png)
 
-## Robot Localization
+## Robot Localization <a name="RobotLocalization">
 
 [Scout 2.0](https://www.agilex.ai/index/product/id/2) is an indoor and outdoor mobile platform, dedicated to the development of multiple applications in higher education, research and industry.
 
@@ -55,7 +55,7 @@ Using Robot Operating System (ROS) we have pursued are the following goals:
 
 ![scout_robot_image](resources/images/scout2.png)
 
-## Face Mask Detector
+## Face Mask Detector <a name="FaceMaskDetector">
 The task of the project was to solve a classification problem using convolutional neural networks. In particular, the task was to distinguish, given an
 image, three cases:
 - No person in the image is wearing a mask
@@ -66,21 +66,21 @@ image, three cases:
 − Everyone is wearing a mask
 − Someone in the image is not wearing a mask
 
-## Crop Segmentation
+## Crop Segmentation <a name="CropSegmentation">
 The task of the project was to solve a segmentation problem. In particular, given a RGB image, the task was to
 create a segmentation mask to distinguish between crop, weeds, and background.
 
-## Visual Question Answering
+## Visual Question Answering <a name="VisualQuestionAnswering">
 The task of the project was to solve a visual question answering (VQA) problem. Given an image and a question,
 the goal was to provide the correct answer.
 
-## Santorini Game
+## Santorini Game <a name="SantoriniGame">
 
 Enjoy a unique gaming experience with the digital version of the tabletop game Santorini 
 
 ![scout_robot_image](resources/images/scout2.png)
 
-## Improved NEQR Compression
+## Improved NEQR Compression <a name="ImprovedNEQRCompression">
 Writing a paper on images compression in Quantum Computers and relative implementation.
 
 <p align="center">
@@ -91,12 +91,12 @@ Writing a paper on images compression in Quantum Computers and relative implemen
 compression theorized so far and to propose an improvement which can be implemented grouping CNOT gates that have the same control information. At the end of the report we present some results we obtain highlighting the improvement achieved in the compression phase.*
 
 
-## CLUP
+## CLUP <a name="CLup">
 
 Design Document (DD) and Requirement Analysis and Specification Document (RASD) of an application which help store managers to regulate the
 influx of people in the building monitoring entrances to comply with the coronavirus safety regulations.
 Moreover the application has the goal to prevent people from waiting outside the store safeguarding clients health and not wasting their time.
 
 
-## Working Zone
+## Working Zone <a name="WorkingZone">
 ...
