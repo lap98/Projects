@@ -74,23 +74,31 @@ image, three cases:
 - Everyone is wearing a mask
 - Someone in the image is not wearing a mask
 
-− No person in the image is wearing a mask
-− Everyone is wearing a mask
-− Someone in the image is not wearing a mask
+![mask](Images/mask.png)
 
 ## Crop Segmentation <a name="CropSegmentation">
 The task of the project was to solve a segmentation problem. In particular, given a RGB image, the task was to
 create a segmentation mask to distinguish between crop, weeds, and background.
 
+![crop1](Images/crop1.jpg)    
+
+![crop2](Images/crop2.png) 
+    
 ## Visual Question Answering <a name="VisualQuestionAnswering">
 The task of the project was to solve a visual question answering (VQA) problem. Given an image and a question,
 the goal was to provide the correct answer.
+
+![VQA](Images/VQA.png) 
 
 ## Santorini Game <a name="SantoriniGame">
 
 Enjoy a unique gaming experience with the digital version of the tabletop game Santorini 
 
-![scout_robot_image](resources/images/scout2.png)
+![santorini1](Images/santorini1.png)
+    
+![santorini2](Images/santorini2.png)
+    
+![santorini3](Images/santorini3.png)
 
 ## Improved NEQR Compression <a name="ImprovedNEQRCompression">
 Writing a paper on images compression in Quantum Computers and relative implementation.
