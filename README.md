@@ -36,7 +36,7 @@ An application, running on the Raspberry, processes the data received and based 
 
 ## Robot Odometry <a name="RobotOdometry">
 
-![scout_robot_image](resources/images/scout2.png)
+![odom_to_baselink](Images/odom_to_baselink.png)
 
 [Scout 2.0](https://www.agilex.ai/index/product/id/2) is an indoor and outdoor mobile platform, dedicated to the development of multiple applications in higher education, research and industry.
 
@@ -48,7 +48,7 @@ Using Robot Operating System (ROS) we have pursued are the following goals:
 - write 2 services to reset the odometry to (0,0,0) or to a certain pose (x,y,θ)
 - publish a custom message with odometry value and type of integration.
 
-![scout_robot_image](resources/images/scout2.png)
+![odom_gtpose_comparison.png](Images/odom_gtpose_comparison.png)
 
 ## Robot Localization <a name="RobotLocalization">
 
@@ -65,7 +65,7 @@ Using Robot Operating System (ROS) we have pursued are the following goals:
 - fuse different data sources using *robot_localization* package;
 - localize the robot using *amcl* package and *robot_localization* package.
 
-![scout_robot_image](resources/images/scout2.png)
+![map_creation](Images/map_creation.png)
 
 ## Face Mask Detector <a name="FaceMaskDetector">
 The task of the project was to solve a classification problem using convolutional neural networks. In particular, the task was to distinguish, given an
