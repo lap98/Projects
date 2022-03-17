@@ -1,26 +1,28 @@
 # Projects
 
-All my projects are currently private. Feel free to contact me if you want to know more.
+All my projects are currently private, nevertheless I present some previews of my projects.
+
+Feel free to contact me if you want to know more. 
 
 ## Project Table
 
 | Plugin | README |
 | ------ | ------ |
-| ThumbLed | Private |
+| Thumb Led | Private |
 | Santorini Game | Private |
-| NEQR_Quantum_Computing | Private |
-| Software_Engineering_CLup | Private |
-| Working_Zone | Private |
-| Visual_Question_Answering | Private |
-| Crop_Segmentation | Private |
-| Face_Mask_Detector | Private |
+| Improved NEQR Compression | Private |
+| CLup | Private |
+| Working Zone | Private |
+| Visual Question Answering | Private |
+| Crop Segmentation | Private |
+| Face Mask Detector | Private |
 | Robot Odometry | Private |
 | Robot Localization | Private |
 
-## Projects Preview
-Here some previews of my projects
+## Thumb Led
+One week project in which ..... 
 
-### Robot Odometry
+## Robot Odometry
 
 ![scout_robot_image](resources/images/scout2.png)
 
@@ -36,7 +38,7 @@ Using Robot Operating System (ROS) we have pursued are the following goals:
 
 ![scout_robot_image](resources/images/scout2.png)
 
-### Robot Localization
+## Robot Localization
 
 [Scout 2.0](https://www.agilex.ai/index/product/id/2) is an indoor and outdoor mobile platform, dedicated to the development of multiple applications in higher education, research and industry.
 
@@ -53,14 +55,32 @@ Using Robot Operating System (ROS) we have pursued are the following goals:
 
 ![scout_robot_image](resources/images/scout2.png)
 
+## Face Mask Detector
+The task of the project was to solve a classification problem using convolutional neural networks. In particular, the task was to distinguish, given an
+image, three cases:
+- No person in the image is wearing a mask
+- Everyone is wearing a mask
+- Someone in the image is not wearing a mask
 
-### Santorini Game
+− No person in the image is wearing a mask
+− Everyone is wearing a mask
+− Someone in the image is not wearing a mask
+
+## Crop Segmentation
+The task of the project was to solve a segmentation problem. In particular, given a RGB image, the task was to
+create a segmentation mask to distinguish between crop, weeds, and background.
+
+## Visual Question Answering
+The task of the project was to solve a visual question answering (VQA) problem. Given an image and a question,
+the goal was to provide the correct answer.
+
+## Santorini Game
 
 Enjoy a unique gaming experience with the digital version of the tabletop game Santorini 
 
 ![scout_robot_image](resources/images/scout2.png)
 
-### Improved NEQR Compression
+## Improved NEQR Compression
 Writing a paper on images compression in Quantum Computers and relative implementation.
 
 <p align="center">
@@ -69,3 +89,14 @@ Writing a paper on images compression in Quantum Computers and relative implemen
 
 *This paper presents the implementation of NEQR and its compression. The aim of the paper is to highlight the practical limits of the
 compression theorized so far and to propose an improvement which can be implemented grouping CNOT gates that have the same control information. At the end of the report we present some results we obtain highlighting the improvement achieved in the compression phase.*
+
+
+## CLUP
+
+Design Document (DD) and Requirement Analysis and Specification Document (RASD) of an application which help store managers to regulate the
+influx of people in the building monitoring entrances to comply with the coronavirus safety regulations.
+Moreover the application has the goal to prevent people from waiting outside the store safeguarding clients health and not wasting their time.
+
+
+## Working Zone
+...
