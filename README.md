@@ -19,11 +19,19 @@ Feel free to contact me if you want to know more.
 | [Robot Odometry](#RobotOdometry) | Private |
 | [Robot Localization](#RobotLocalization) | Private |
 
-## Thumb Led <a name="ThumbLed">
-One week project in which ..... 
-
+## Thumb Led
 
 https://user-images.githubusercontent.com/47597693/158889676-5202d286-a42f-43c0-abf5-110485148884.mp4
+
+### <a name="ThumbLed">
+
+One week project in which I implemented a Convolutional Neural Network model which was able to distinguish three different classes
+- Thumb UP
+- Thumb DOWN
+- No thumb
+
+The predicted class is then sent via Bluetooth to the Raspberry Pi. 
+An application, running on the Raspberry, processes the data received and based on what receives turns on a specific led.
 
 
 ## Robot Odometry <a name="RobotOdometry">
