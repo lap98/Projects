@@ -93,10 +93,37 @@ compression theorized so far and to propose an improvement which can be implemen
 
 ## CLUP <a name="CLup">
 
-Design Document (DD) and Requirement Analysis and Specification Document (RASD) of an application which help store managers to regulate the
+Design Document (DD) and Requirement Analysis and Specification Document (RASD) of an application (CLup) which help store managers to regulate the
 influx of people in the building monitoring entrances to comply with the coronavirus safety regulations.
 Moreover the application has the goal to prevent people from waiting outside the store safeguarding clients health and not wasting their time.
 
 
 ## Working Zone <a name="WorkingZone">
-...
+The project is based on the low power dissipation coding method called "Working Zone".
+Through this type of coding it is possible to transform an address according to the belonging to certain intervals (Working Zones).
+The module is implemented using VHDL. The module reads the address to be encoded and the base addresses of the Working Zones and it outputs the encoded address.
+
+A Working Zone is characterized by :
+- Base address (first address that identifies the Working Zone, from 00000000 to 11111100)
+- Size (fixed of 4 addresses including the base address)
+- Number of bits per address (8 bits)
+
+Each Working Zone base address is contained within a memory address (from 0 to 7) and therefore the number of Working Zones is 8. The address to be transmitted can vary from 0 to 127 (000000-011111111) and it is contained within address 8 of the memory. The encoded address, instead, is written inside
+address 9 of the memory.
+- If the address to be transmitted is not contained in any Working Zone, it is transmitted without change.
+- If the address to be transmitted is contained in a Working Zone :
+    - The first bit is set to 1
+    - From the second bit to the fourth bit, the number of the Working Zone is encoded in binary.
+        - 000 (WZ 0)
+        - 001 (WZ 1)
+        - 010 (WZ 2)
+        - 011 (WZ 3)
+        - 100 (WZ 4)
+        - 101 (WZ 5)
+        - 110 (WZ 6)
+        - 111 (WZ 7)
+    - In the remaining bits there is the one-hot encoding of the offset
+        - 0001 (offset = 0)
+        - 0010 (offset = 1)
+        - 0100 (offset = 2)
+        - 1000 (offset = 3)
