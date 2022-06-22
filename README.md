@@ -1,6 +1,6 @@
 # Projects
 
-All my projects are currently private, nevertheless I present some previews of my projects.
+Most of my projects are currently private, nevertheless I present some previews of them.
 
 Feel free to contact me if you want to know more. 
 
@@ -8,7 +8,7 @@ Feel free to contact me if you want to know more.
 
 | Project | Link |
 | ------ | ------ |
-| [Thumb Led](#ThumbLed)| Private |
+| [P-Hug](#P-Hug)| [P-Hug](https://github.com/AlessandroBarbiero/Robotics-and-Design-project)|
 | [Santorini Game](#SantoriniGame)| Private |
 | [Improved NEQR Compression](#ImprovedNEQRCompression)| Private |
 | [CLup](#CLup) | Private |
@@ -18,21 +18,7 @@ Feel free to contact me if you want to know more.
 | [Face Mask Detector](#FaceMaskDetector) | Private |
 | [Robot Odometry](#RobotOdometry) | Private |
 | [Robot Localization](#RobotLocalization) | Private |
-
-## Thumb Led
-
-https://user-images.githubusercontent.com/47597693/158889676-5202d286-a42f-43c0-abf5-110485148884.mp4
-
-### <a name="ThumbLed">
-
-One week project in which I implemented a Convolutional Neural Network model which was able to distinguish three different classes
-- Thumb UP
-- Thumb DOWN
-- No thumb
-
-The predicted class is then sent via Bluetooth to the Raspberry Pi. 
-An application, running on the Raspberry, processes the data received and based on what receives turns on a specific led.
-
+| [Thumb Led](#ThumbLed)| Private |
 
 ## Robot Odometry <a name="RobotOdometry">
 
@@ -147,3 +133,19 @@ address 9 of the memory.
         - 0010 (offset = 1)
         - 0100 (offset = 2)
         - 1000 (offset = 3)
+
+    ## Thumb Led
+
+https://user-images.githubusercontent.com/47597693/158889676-5202d286-a42f-43c0-abf5-110485148884.mp4
+
+### <a name="ThumbLed">
+
+One week project in which I implemented a Convolutional Neural Network model which was able to distinguish three different classes
+- Thumb UP
+- Thumb DOWN
+- No thumb
+
+The predicted class is then sent via Bluetooth to the Raspberry Pi. 
+An application, running on the Raspberry, processes the data received and based on what receives turns on a specific led.
+
+
