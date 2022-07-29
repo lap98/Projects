@@ -104,6 +104,59 @@ Using Robot Operating System (ROS) we have pursued are the following goals:
 
 ![map_creation](Images/map_creation.png)
 
+## Missile Simulator <a name="Missile-Simulator">
+
+The goal of the project is to design and implement a Vulkan application  of a missile simulator following a parabolic trajectory in a 3D landscape.
+
+ <img src="Images/rocketSimulator2.png" width="600" /> 
+ 
+ Daily look at view 
+
+
+
+### Commands
+
+Here a table with the main functionalities of the application:
+
+| Command      | Action          
+| ------------- |:-------------------:| 
+| 1			| Increase the pitch					| 
+| 2			| Decrease the pitch					|
+| 3			| increase the yaw						| 
+| 4			| decrease the yaw						|
+| 5			| move the rocket up					|
+| 6			| move the rocket down					|
+| 7			| move the rocket right					|
+| 8			| move the rocket left					|
+| 9			| move the rocket forward				|
+| 0			| move the rocket backward				|
+| H			| increase the acceleration				|
+| B			| decrease the acceleration				|
+| SPACE		| launch the rocket						|
+| G			| Reset the rocket						|
+| N			| Switch from day to night				|
+| V			| change camera view					|
+| I			| move to rocket information view		|
+
+In the World View also those commands are possible:
+
+| Command      | Action          
+| ------------- |:-------------------:				| 
+| UP ARROW		| Look up							| 
+| DOWN ARROW	| Look down							|
+| LEFT ARROW	| Look left							| 
+| RIGHT ARROW	| Look right						|
+| W				| move forward						|
+| S				| move backward						|
+| A				| move left							|	
+| D				| move right						|
+| R				| levitate up						|
+| F				| levitate down						|
+| Q				| turn the camera counterclockwise	|
+| E				| turn the camera clockwise			|
+
+ <img src="Images/rocketSimulator3.png" width="600" /> 
+
 ## Face Mask Detector <a name="FaceMaskDetector">
 The task of the project was to solve a classification problem using convolutional neural networks. In particular, the task was to distinguish, given an
 image, three cases:
