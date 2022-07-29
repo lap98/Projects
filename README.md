@@ -109,10 +109,6 @@ Using Robot Operating System (ROS) we have pursued are the following goals:
 The goal of the project is to design and implement a Vulkan application  of a missile simulator following a parabolic trajectory in a 3D landscape.
 
  <img src="Images/rocketSimulator2.png" width="600" /> 
- 
- Daily look at view 
-
-
 
 ### Commands
 
