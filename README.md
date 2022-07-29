@@ -24,9 +24,12 @@ Feel free to contact me if you want to know more.
 ## P-HUG 
 According to surveys and research the haptic sense is a significant aspect of human wellbeing. The experience received as a result of contact with another living creature like hugs stimulates serotonin production. High serotonin levels improve mood, make people feel better, and help having better sleep. Nowadays people are more linked than ever before as a result of the developing trend of technology. While technology has helped to bridge the gap, it has not been able to eliminate all the barriers imposed by distance. Our initiative primarily aims to bridge this gap by creating a product that sends a haptic hug from one device (Giffy: the puppet) to another one (the Jacket). The embrace and caress from the puppet is transfered via a wifi connection to the wearer of the jacket. The wearer can feel three major sensations: vibration achieved by vibration motors simulating a moving caress, pressure from an inflatable chamber simulating a hug, and a constant warm feeling from a resistive wire. Our goal is not to replace an actual embrace, but to help people that live apart and cannot hold their loved ones having a fraction of that so desired contact.
 
+<img src="Images/P'hug.png" />
+
 ### Electronics organization
 Here are reported the wiring schemas for the two devices
 #### `Giffy`
+<img src="Images/giffy.png" />
 Built around an `Arduino Mkr1000 wifi`
 
 Input:
@@ -40,9 +43,10 @@ Output:
 - Speaker
 - Integrated Wifi module (ATSAMW25) of Arduino Mkr1000 wifi
 
-<img src="Documentation/Wiring/Client_wiring.png" />
+<img src="Images/Client_wiring.png" />
 
 #### `The Jacket`
+<img src="Images/jacket.png" />
 Built around an `Adafruit Feather Huzzah`
 
 Input:
@@ -54,7 +58,7 @@ Output:
 - Air pump to inflate the chamber around the waist to simulate the hug
 - Heating resistance activated via a relè
 
-<img src="Documentation/Wiring/Server_wiring.png" />
+<img src="Images/Server_wiring.png" />
 
 ### Code organization
 All the code has been written following the object oriented programming model with the help of the platform `PlatformIO`.
@@ -64,7 +68,7 @@ The code can be seen in the folders [Client](/Client/) for Giffy and [Server](/S
 
 ### Team
 
- <img src="Documentation/Team Picture.jpg" width="600" /> 
+ <img src="Images/Team Picture.jpg" width="600" /> 
 
 
 ## Robot Odometry <a name="RobotOdometry">
