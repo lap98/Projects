@@ -9,6 +9,7 @@ Feel free to contact me if you want to know more.
 | Project | Link |
 | ------ | ------ |
 | [P-Hug](#P-Hug)| [P-Hug](https://github.com/AlessandroBarbiero/Robotics-and-Design-project)|
+| [Missile Simulator](#Missile-Simulator)| Private |
 | [Santorini Game](#SantoriniGame)| Private |
 | [Improved NEQR Compression](#ImprovedNEQRCompression)| Private |
 | [CLup](#CLup) | Private |
@@ -19,6 +20,52 @@ Feel free to contact me if you want to know more.
 | [Robot Odometry](#RobotOdometry) | Private |
 | [Robot Localization](#RobotLocalization) | Private |
 | [Thumb Led](#ThumbLed)| Private |
+
+## P-HUG 
+According to surveys and research the haptic sense is a significant aspect of human wellbeing. The experience received as a result of contact with another living creature like hugs stimulates serotonin production. High serotonin levels improve mood, make people feel better, and help having better sleep. Nowadays people are more linked than ever before as a result of the developing trend of technology. While technology has helped to bridge the gap, it has not been able to eliminate all the barriers imposed by distance. Our initiative primarily aims to bridge this gap by creating a product that sends a haptic hug from one device (Giffy: the puppet) to another one (the Jacket). The embrace and caress from the puppet is transfered via a wifi connection to the wearer of the jacket. The wearer can feel three major sensations: vibration achieved by vibration motors simulating a moving caress, pressure from an inflatable chamber simulating a hug, and a constant warm feeling from a resistive wire. Our goal is not to replace an actual embrace, but to help people that live apart and cannot hold their loved ones having a fraction of that so desired contact.
+
+### Electronics organization
+Here are reported the wiring schemas for the two devices
+#### `Giffy`
+Built around an `Arduino Mkr1000 wifi`
+
+Input:
+- 3 Force sensitive resistors to simulate the caress
+- Force sensitive resistor to simulate the hug
+- Accelerometer to detect shaking
+- NFC reader to upload SSID and Password using the Application
+
+Output:
+- 2 Servo motors to move the ears
+- Speaker
+- Integrated Wifi module (ATSAMW25) of Arduino Mkr1000 wifi
+
+<img src="Documentation/Wiring/Client_wiring.png" />
+
+#### `The Jacket`
+Built around an `Adafruit Feather Huzzah`
+
+Input:
+- Integrated Wifi module (ESP8266) of Adafruit Feather Huzzah 
+- Bluetooth module (HC-05) to upload SSID and Password
+
+Output:
+- 6 Vibration motors to simulate the caress
+- Air pump to inflate the chamber around the waist to simulate the hug
+- Heating resistance activated via a relè
+
+<img src="Documentation/Wiring/Server_wiring.png" />
+
+### Code organization
+All the code has been written following the object oriented programming model with the help of the platform `PlatformIO`.
+The main idea is to build a client-server model to receive the information from Giffy and send it to the jacket that operates according to that.
+
+The code can be seen in the folders [Client](/Client/) for Giffy and [Server](/Server/) for the Jacket.
+
+### Team
+
+ <img src="Documentation/Team Picture.jpg" width="600" /> 
+
 
 ## Robot Odometry <a name="RobotOdometry">
 
