@@ -8,6 +8,7 @@ Feel free to contact me if you want to know more.
 
 | Project | Link |
 | ------ | ------ |
+| [Reinforcement Learning for Drone Stabilization](#RLDroneStabilization)| Coming soon ...|
 | [P-Hug](#P-Hug)| [P-Hug](https://github.com/AlessandroBarbiero/Robotics-and-Design-project)|
 | [Missile Simulator](#Missile-Simulator)| Private |
 | [Santorini Game](#SantoriniGame)| Private |
