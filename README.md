@@ -8,7 +8,7 @@ Feel free to contact me if you want to know more.
 
 | Project | Link |
 | ------ | ------ |
-| [Reinforcement Learning for Quadcopter Stabilization](#QuadcopterStabilization)| [QuadcopterStabilization](https://github.com/lap98/RL-Drone-Stabilization)|
+| [Deep RL based Robust Quadcopter Stabilization System](#QuadcopterStabilization)| [QuadcopterStabilization](https://github.com/lap98/RL-Drone-Stabilization)|
 | [P-Hug](#P-Hug)| [P-Hug](https://github.com/AlessandroBarbiero/Robotics-and-Design-project)|
 | [Missile Simulator](#Missile-Simulator)| Private |
 | [Santorini Game](#SantoriniGame)| Private |
@@ -22,7 +22,26 @@ Feel free to contact me if you want to know more.
 | [Robot Localization](#RobotLocalization) | Private |
 | [Thumb Led](#ThumbLed)| Private |
 
-## P-HUG 
+## Deep RL based Robust Quadcopter Stabilization System <a name="QuadcopterStabilization">
+Reinforcement learning has been steadily growing in
+popularity for few years. Notable applications are in the
+fields of finance, healthcare, natural language processing
+and, especially, robotics. In particular, deep reinforcement
+learning excels in the automatic development of control systems, with the advantage — compared to classical techniques — of being able to model non-linear dynamics and
+kinematics.
+The goal of this work is to explore and test the applications
+of deep reinforcement learning in the autonomous control
+systems field. Specifically, the project aim is to develop a
+deep-RL based controller for quadcopters. Different RL
+agents are developed and evaluated leveraging both onpolicy and off-policy learning, within a simulated environment. Our work focuses on off-policy learning, mainly due
+to the much better sample-efficiency of the process. Multiple
+actor-critic network structures are evaluated. The agents
+are trained to stabilize the quadcopter given its state in the
+world, by moving and keeping it in the defined target position.
+
+
+
+## P-HUG <a name="P-Hug">
 According to surveys and research the haptic sense is a significant aspect of human wellbeing. The experience received as a result of contact with another living creature like hugs stimulates serotonin production. High serotonin levels improve mood, make people feel better, and help having better sleep. Nowadays people are more linked than ever before as a result of the developing trend of technology. While technology has helped to bridge the gap, it has not been able to eliminate all the barriers imposed by distance. Our initiative primarily aims to bridge this gap by creating a product that sends a haptic hug from one device (Giffy: the puppet) to another one (the Jacket). The embrace and caress from the puppet is transfered via a wifi connection to the wearer of the jacket. The wearer can feel three major sensations: vibration achieved by vibration motors simulating a moving caress, pressure from an inflatable chamber simulating a hug, and a constant warm feeling from a resistive wire. Our goal is not to replace an actual embrace, but to help people that live apart and cannot hold their loved ones having a fraction of that so desired contact.
 
 <img src="Images/P'hug.png" />
