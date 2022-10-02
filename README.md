@@ -41,7 +41,7 @@ world, by moving and keeping it in the defined target position.
 
 ### Contribution
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qK5hctin3pM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Initial Roll 180](https://img.youtube.com/vi/qK5hctin3pM/0.jpg)](https://www.youtube.com/watch?v=qK5hctin3pM "Initial Roll 180")
 
 - New interpretation of the actor network output (scaled
 delta thrust), which allows for finer-grained control
