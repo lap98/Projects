@@ -41,8 +41,11 @@ world, by moving and keeping it in the defined target position.
 
 ### Contribution
 
+<<<<<<< HEAD
 [![Initial Roll 180](https://img.youtube.com/vi/qK5hctin3pM/0.jpg)](https://www.youtube.com/watch?v=qK5hctin3pM "Initial Roll 180")
 
+=======
+>>>>>>> 2f9a74dbe885848420846d70c731594304569a0f
 - New interpretation of the actor network output (scaled
 delta thrust), which allows for finer-grained control
 and makes the solution a drop-in component compatible with most drone once calibrated.
@@ -58,6 +61,11 @@ to converge.
 - Robustness to extreme perturbations in initial pitch,
 roll and yaw angles. The controller can even recover
 from upside down states.
+
+
+https://user-images.githubusercontent.com/47597693/193461113-a568ace6-0e77-424e-9d6b-f5acefe807e3.mp4
+
+
 - Moreover, the neural network controller can sustain
 high deltas between the initial pose and the set pose
 (or can be used to control the drone at a lower level).
