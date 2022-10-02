@@ -38,37 +38,34 @@ to the much better sample-efficiency of the process. Multiple
 actor-critic network structures are evaluated. The agents
 are trained to stabilize the quadcopter given its state in the
 world, by moving and keeping it in the defined target position.
+ 
+###Training
+
+https://youtu.be/H_IQkG8Z6QU
 
 ### Contribution
 
-<<<<<<< HEAD
-[![Initial Roll 180](https://img.youtube.com/vi/qK5hctin3pM/0.jpg)](https://www.youtube.com/watch?v=qK5hctin3pM "Initial Roll 180")
-
-=======
->>>>>>> 2f9a74dbe885848420846d70c731594304569a0f
-- New interpretation of the actor network output (scaled
-delta thrust), which allows for finer-grained control
+- New interpretation of the actor network output (scaled delta thrust), which allows for finer-grained control
 and makes the solution a drop-in component compatible with most drone once calibrated.
 - New networks architecture, which strikes a balance between learning speed and representational capability.
-- New controller, resistant to up to 5x stronger wind
-compared to previous works, and to 2x stronger wind
-compared to most commercial solutions.
+- New controller, resistant to up to 5x stronger wind compared to previous works, and to 2x stronger wind compared to most commercial solutions.
+
+ https://user-images.githubusercontent.com/47597693/193462526-13806615-9a85-49fe-9082-b6065aaf08ea.mp4
+ 
 - Completely off-policy agent training: the process is
 more sample-efficient than on-policy learning algorithms, and reaches good reward values with as low
-as 200000 steps. Longer training further increases the
-reward. No particular exploration policies are needed
-to converge.
+as 200000 steps. Longer training further increases the reward. No particular exploration policies are needed to converge.
 - Robustness to extreme perturbations in initial pitch,
 roll and yaw angles. The controller can even recover
 from upside down states.
 
-
 https://user-images.githubusercontent.com/47597693/193461113-a568ace6-0e77-424e-9d6b-f5acefe807e3.mp4
 
+- Moreover, the neural network controller can sustain high deltas between the initial pose and the set pose (or can be used to control the drone at a lower level).
+ 
+https://user-images.githubusercontent.com/47597693/193462668-4d48821e-8783-4eb6-b561-bdb7a02fd160.mp4
 
-- Moreover, the neural network controller can sustain
-high deltas between the initial pose and the set pose
-(or can be used to control the drone at a lower level).
+
 ## P-HUG <a name="P-Hug">
 According to surveys and research the haptic sense is a significant aspect of human wellbeing. The experience received as a result of contact with another living creature like hugs stimulates serotonin production. High serotonin levels improve mood, make people feel better, and help having better sleep. Nowadays people are more linked than ever before as a result of the developing trend of technology. While technology has helped to bridge the gap, it has not been able to eliminate all the barriers imposed by distance. Our initiative primarily aims to bridge this gap by creating a product that sends a haptic hug from one device (Giffy: the puppet) to another one (the Jacket). The embrace and caress from the puppet is transfered via a wifi connection to the wearer of the jacket. The wearer can feel three major sensations: vibration achieved by vibration motors simulating a moving caress, pressure from an inflatable chamber simulating a hug, and a constant warm feeling from a resistive wire. Our goal is not to replace an actual embrace, but to help people that live apart and cannot hold their loved ones having a fraction of that so desired contact.
 
