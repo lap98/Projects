@@ -46,7 +46,7 @@ and makes the solution a drop-in component compatible with most drone once calib
 - New networks architecture, which strikes a balance between learning speed and representational capability.
 - New controller, resistant to up to 5x stronger wind compared to previous works, and to 2x stronger wind compared to most commercial solutions.
 
- https://user-images.githubusercontent.com/47597693/193462526-13806615-9a85-49fe-9082-b6065aaf08ea.mp4
+https://user-images.githubusercontent.com/47597693/193462526-13806615-9a85-49fe-9082-b6065aaf08ea.mp4
  
 - Completely off-policy agent training: the process is
 more sample-efficient than on-policy learning algorithms, and reaches good reward values with as low
@@ -55,7 +55,7 @@ as 200000 steps. Longer training further increases the reward. No particular exp
 roll and yaw angles. The controller can even recover
 from upside down states.
 
-https://user-images.githubusercontent.com/47597693/193461113-a568ace6-0e77-424e-9d6b-f5acefe807e3.mp4
+ https://user-images.githubusercontent.com/47597693/193461113-a568ace6-0e77-424e-9d6b-f5acefe807e3.mp4
 
 - Moreover, the neural network controller can sustain high deltas between the initial pose and the set pose (or can be used to control the drone at a lower level).
  
