@@ -41,8 +41,6 @@ world, by moving and keeping it in the defined target position.
 
 ### Contribution
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qK5hctin3pM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 - New interpretation of the actor network output (scaled
 delta thrust), which allows for finer-grained control
 and makes the solution a drop-in component compatible with most drone once calibrated.
@@ -58,6 +56,11 @@ to converge.
 - Robustness to extreme perturbations in initial pitch,
 roll and yaw angles. The controller can even recover
 from upside down states.
+
+
+https://user-images.githubusercontent.com/47597693/193461113-a568ace6-0e77-424e-9d6b-f5acefe807e3.mp4
+
+
 - Moreover, the neural network controller can sustain
 high deltas between the initial pose and the set pose
 (or can be used to control the drone at a lower level).
