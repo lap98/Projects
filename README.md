@@ -38,10 +38,6 @@ to the much better sample-efficiency of the process. Multiple
 actor-critic network structures are evaluated. The agents
 are trained to stabilize the quadcopter given its state in the
 world, by moving and keeping it in the defined target position.
- 
-###Training
-
-https://youtu.be/H_IQkG8Z6QU
 
 ### Contribution
 
