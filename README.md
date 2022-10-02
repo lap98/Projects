@@ -39,8 +39,28 @@ actor-critic network structures are evaluated. The agents
 are trained to stabilize the quadcopter given its state in the
 world, by moving and keeping it in the defined target position.
 
+### Contribution
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qK5hctin3pM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+- New interpretation of the actor network output (scaled
+delta thrust), which allows for finer-grained control
+and makes the solution a drop-in component compatible with most drone once calibrated.
+- New networks architecture, which strikes a balance between learning speed and representational capability.
+- New controller, resistant to up to 5x stronger wind
+compared to previous works, and to 2x stronger wind
+compared to most commercial solutions.
+- Completely off-policy agent training: the process is
+more sample-efficient than on-policy learning algorithms, and reaches good reward values with as low
+as 200000 steps. Longer training further increases the
+reward. No particular exploration policies are needed
+to converge.
+- Robustness to extreme perturbations in initial pitch,
+roll and yaw angles. The controller can even recover
+from upside down states.
+- Moreover, the neural network controller can sustain
+high deltas between the initial pose and the set pose
+(or can be used to control the drone at a lower level).
 ## P-HUG <a name="P-Hug">
 According to surveys and research the haptic sense is a significant aspect of human wellbeing. The experience received as a result of contact with another living creature like hugs stimulates serotonin production. High serotonin levels improve mood, make people feel better, and help having better sleep. Nowadays people are more linked than ever before as a result of the developing trend of technology. While technology has helped to bridge the gap, it has not been able to eliminate all the barriers imposed by distance. Our initiative primarily aims to bridge this gap by creating a product that sends a haptic hug from one device (Giffy: the puppet) to another one (the Jacket). The embrace and caress from the puppet is transfered via a wifi connection to the wearer of the jacket. The wearer can feel three major sensations: vibration achieved by vibration motors simulating a moving caress, pressure from an inflatable chamber simulating a hug, and a constant warm feeling from a resistive wire. Our goal is not to replace an actual embrace, but to help people that live apart and cannot hold their loved ones having a fraction of that so desired contact.
 
