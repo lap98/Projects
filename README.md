@@ -46,8 +46,12 @@ and makes the solution a drop-in component compatible with most drone once calib
 - New networks architecture, which strikes a balance between learning speed and representational capability.
 - New controller, resistant to up to 5x stronger wind compared to previous works, and to 2x stronger wind compared to most commercial solutions.
 
-https://user-images.githubusercontent.com/47597693/193462526-13806615-9a85-49fe-9082-b6065aaf08ea.mp4
+
  
+
+https://user-images.githubusercontent.com/47597693/193463032-2e3a48af-8b87-477e-b54e-fdce0e1ddf5e.mp4
+
+
 - Completely off-policy agent training: the process is
 more sample-efficient than on-policy learning algorithms, and reaches good reward values with as low
 as 200000 steps. Longer training further increases the reward. No particular exploration policies are needed to converge.
