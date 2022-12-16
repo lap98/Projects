@@ -10,6 +10,8 @@ Feel free to contact me if you want to know more.
 | ------ | ------ |
 | [Deep RL based Robust Quadcopter Stabilization System](#QuadcopterStabilization)| [QuadcopterStabilization](https://github.com/lap98/RL-Drone-Stabilization)|
 | [P-Hug](#P-Hug)| [P-Hug](https://github.com/AlessandroBarbiero/Robotics-and-Design-project)|
+| [Barbecue app]()| Coming soon ... |
+| [Magic Mirror - Smart Forest]()| Coming soon ... |
 | [Missile Simulator](#Missile-Simulator)| Private |
 | [Santorini Game](#SantoriniGame)| Private |
 | [Improved NEQR Compression](#ImprovedNEQRCompression)| Private |
