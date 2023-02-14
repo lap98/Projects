@@ -68,15 +68,6 @@ from upside down states.
 https://user-images.githubusercontent.com/47597693/193462668-4d48821e-8783-4eb6-b561-bdb7a02fd160.mp4
 
 
-# iTasteGrill
-iTasteGrill is a mobile application (suitable for smartphones and tablets). It can run on different operational systems such as Android and iOS.
-We designed this application with the final purpose to allow people to meet each other in fairly cheerful barbecue events and sinplify the management and the organization of the barbecue party.
-According to the loaded profile of whoever registered and his preferences on foods and drinks, this App can easily select products suitable to meet users’ expectations while avoiding food waste.
-In addition, all users can easily have advance information on the location, date, time and number of the participants, foods and drinks expected to be found on each event.
-
-
-<img src="Images/iTasteGrill.jpg" />
-
 ## Smart Forest
 
 Smart Forest is a collaborative project developed by Politecnico di Milano and the energy provider Edison. The project aims to create an interactive mirror that helps users to easily monitor their energy consumption and encourages them to use renewable energy sources. The mirror displays an interactive forest, where users can earn leaves for using renewable energy and lose experience points, which is the lifespan of each tree, for using non-renewable energy. These leaves can then be used to purchase and plant new trees in order to gain more and more leaves. The mirror also provides real-time feedback and personalized recommendations for reducing energy consumption. Overall, Smart Forest project hopes to engage users in an interactive and fun way to promote sustainable energy practices and raise awareness about the importance of renewable energy.
@@ -131,6 +122,33 @@ The code can be seen in the folders [Client](/Client/) for Giffy and [Server](/S
 ### Team
 
  <img src="Images/Team Picture.jpg" width="600" /> 
+
+
+## iTasteGrill
+iTasteGrill is a mobile application (suitable for smartphones and tablets). It can run on different operational systems such as Android and iOS.
+We designed this application with the final purpose to allow people to meet each other in fairly cheerful barbecue events and sinplify the management and the organization of the barbecue party.
+According to the loaded profile of whoever registered and his preferences on foods and drinks, this App can easily select products suitable to meet users’ expectations while avoiding food waste.
+In addition, all users can easily have advance information on the location, date, time and number of the participants, foods and drinks expected to be found on each event.
+
+
+<img src="Images/iTasteGrill.jpg" />
+
+
+## Control of Mobile Robot
+
+In this project I implemented two main ROS packages:
+
+<ul>
+  <li>A ROS package based on Boost Odeint library to simulate the kynematic and dynamic model of a robot.</li>
+  <li>A ROS package which implement a trajectory tracking controller composed of a feedback linearisation law, based on the bicycle kinematic model and a PI trajectory tracking controller with velocity feed-forward (using Forward Euler discretisation).</li>
+</ul>
+
+In the figure below is represented the reference trajectory (in blue) and the actual trajectory (in orange) of the robot
+
+<img src="Images/ref_actual_traj.png" />
+
+
+
 
 
 ## Robot Odometry <a name="RobotOdometry">
