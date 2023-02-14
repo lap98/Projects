@@ -68,6 +68,21 @@ from upside down states.
 https://user-images.githubusercontent.com/47597693/193462668-4d48821e-8783-4eb6-b561-bdb7a02fd160.mp4
 
 
+# iTasteGrill
+iTasteGrill is a mobile application (suitable for smartphones and tablets). It can run on different operational systems such as Android and iOS.
+We designed this application with the final purpose to allow people to meet each other in fairly cheerful barbecue events and sinplify the management and the organization of the barbecue party.
+According to the loaded profile of whoever registered and his preferences on foods and drinks, this App can easily select products suitable to meet users’ expectations while avoiding food waste.
+In addition, all users can easily have advance information on the location, date, time and number of the participants, foods and drinks expected to be found on each event.
+
+| | | 
+|:-------------------------:|:-------------------------:|
+|
+<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="Images/iTasteGrill_signIn.png">|  <img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="Images/iTasteGrill_profile.png">
+|<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="Images/iTasteGrill_home.png"> |  <img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="Images/iTasteGrill_event.png">
+|<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="Images/iTasteGrill_profile.png">  |  <img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="Images/iTasteGrill_location.png">
+
+<img src="Images/iTasteGrill_createEvent.png" />
+
 ## Smart Forest
 
 Smart Forest is a collaborative project developed by Politecnico di Milano and the energy provider Edison. The project aims to create an interactive mirror that helps users to easily monitor their energy consumption and encourages them to use renewable energy sources. The mirror displays an interactive forest, where users can earn leaves for using renewable energy and lose experience points, which is the lifespan of each tree, for using non-renewable energy. These leaves can then be used to purchase and plant new trees in order to gain more and more leaves. The mirror also provides real-time feedback and personalized recommendations for reducing energy consumption. Overall, Smart Forest project hopes to engage users in an interactive and fun way to promote sustainable energy practices and raise awareness about the importance of renewable energy.
