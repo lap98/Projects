@@ -8,7 +8,7 @@ Feel free to contact me if you want to know more.
 
 | Project | Link |
 | ------ | ------ |
-| [Deep RL based Robust Quadcopter Stabilization System](#QuadcopterStabilization)| [QuadcopterStabilization](https://github.com/lap98/RL-Drone-Stabilization)|
+| [Deep RL based Quadcopter Stabilization](#QuadcopterStabilization)| [QuadcopterStabilization](https://github.com/lap98/RL-Drone-Stabilization)|
 | [P-Hug](#P-Hug)| [P-Hug](https://github.com/AlessandroBarbiero/Robotics-and-Design-project)|
 | [Barbecue app]()| Coming soon ... |
 | [Magic Mirror - Smart Forest]()| Coming soon ... |
@@ -66,6 +66,15 @@ from upside down states.
 - Moreover, the neural network controller can sustain high deltas between the initial pose and the set pose (or can be used to control the drone at a lower level).
  
 https://user-images.githubusercontent.com/47597693/193462668-4d48821e-8783-4eb6-b561-bdb7a02fd160.mp4
+
+
+## Smart Forest
+
+Smart Forest is a collaborative project developed by Politecnico di Milano and the energy provider Edison. The project aims to create an interactive mirror that helps users to easily monitor their energy consumption and encourages them to use renewable energy sources. The mirror displays an interactive forest, where users can earn leaves for using renewable energy and lose experience points, which is the lifespan of each tree, for using non-renewable energy. These leaves can then be used to purchase and plant new trees in order to gain more and more leaves. The mirror also provides real-time feedback and personalized recommendations for reducing energy consumption. Overall, Smart Forest project hopes to engage users in an interactive and fun way to promote sustainable energy practices and raise awareness about the importance of renewable energy.
+
+
+
+
 
 
 ## P-HUG <a name="P-Hug">
