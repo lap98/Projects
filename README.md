@@ -282,7 +282,7 @@ Design Document (DD) and Requirement Analysis and Specification Document (RASD) 
 influx of people in the building monitoring entrances to comply with the coronavirus safety regulations.
 Moreover the application has the goal to prevent people from waiting outside the store safeguarding clients health and not wasting their time.
 
-![RASD_DD](Images/RASD_DD.JPG)
+![RASD_DD](Images/ddrasd.jpg)
 
 
 ## Working Zone 
