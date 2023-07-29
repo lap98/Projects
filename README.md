@@ -316,6 +316,7 @@ address 9 of the memory.
         - 0010 (offset = 1)
         - 0100 (offset = 2)
         - 1000 (offset = 3)
+        
 ![WZ1](Images/WZ1.JPG) 
  ## Thumb Led
 
