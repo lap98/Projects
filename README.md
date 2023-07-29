@@ -8,7 +8,7 @@ Feel free to contact me if you want to know more.
 
 | Project | Link |
 | ------ | ------ |
-| [Deep RL based Quadcopter Stabilization](#QuadcopterStabilization)| [QuadcopterStabilization](https://github.com/lap98/RL-Drone-Stabilization)|
+| [Deep RL based Quadcopter Stabilization](#deep-rl-based-robust-quadcopter-stabilization-system)| [QuadcopterStabilization](https://github.com/lap98/RL-Drone-Stabilization)|
 | [P-Hug](#P-Hug)| [P-Hug](https://github.com/AlessandroBarbiero/Robotics-and-Design-project)|
 | [iTasteGrill](#itastegrill)| Private |
 | [Magic Mirror - Smart Forest](#smart-forest)| Private |
@@ -25,7 +25,7 @@ Feel free to contact me if you want to know more.
 | [Robot Localization](#RobotLocalization) | Private |
 | [Thumb Led](#ThumbLed)| Private |
 
-## Deep RL based Robust Quadcopter Stabilization System <a name="QuadcopterStabilization">
+## Deep RL based Robust Quadcopter Stabilization System
 Reinforcement learning has been steadily growing in
 popularity for few years. Notable applications are in the
 fields of finance, healthcare, natural language processing
@@ -65,13 +65,13 @@ from upside down states.
  
 https://user-images.githubusercontent.com/47597693/193462668-4d48821e-8783-4eb6-b561-bdb7a02fd160.mp4
 
-## Smart Forest<a name="smart-forest">
+## Smart Forest
 
 Smart Forest is a collaborative project developed by Politecnico di Milano and the energy provider Edison. The project aims to create an interactive mirror that helps users to easily monitor their energy consumption and encourages them to use renewable energy sources. The mirror displays an interactive forest, where users can earn leaves for using renewable energy and lose experience points, which is the lifespan of each tree, for using non-renewable energy. These leaves can then be used to purchase and plant new trees in order to gain more and more leaves. The mirror also provides real-time feedback and personalized recommendations for reducing energy consumption. Overall, Smart Forest project hopes to engage users in an interactive and fun way to promote sustainable energy practices and raise awareness about the importance of renewable energy.
 
 https://user-images.githubusercontent.com/47597693/218736048-5434f455-2131-40be-b1f7-8a42c1cd1b65.mp4
 
-## P-HUG <a name="P-Hug">
+## P-HUG 
 According to surveys and research the haptic sense is a significant aspect of human wellbeing. The experience received as a result of contact with another living creature like hugs stimulates serotonin production. High serotonin levels improve mood, make people feel better, and help having better sleep. Nowadays people are more linked than ever before as a result of the developing trend of technology. While technology has helped to bridge the gap, it has not been able to eliminate all the barriers imposed by distance. Our initiative primarily aims to bridge this gap by creating a product that sends a haptic hug from one device (Giffy: the puppet) to another one (the Jacket). The embrace and caress from the puppet is transfered via a wifi connection to the wearer of the jacket. The wearer can feel three major sensations: vibration achieved by vibration motors simulating a moving caress, pressure from an inflatable chamber simulating a hug, and a constant warm feeling from a resistive wire. Our goal is not to replace an actual embrace, but to help people that live apart and cannot hold their loved ones having a fraction of that so desired contact.
 
 <img src="Images/P'hug.png" />
@@ -121,7 +121,7 @@ The code can be seen in the folders [Client](/Client/) for Giffy and [Server](/S
  <img src="Images/Team Picture.jpg" width="600" /> 
 
 
-## iTasteGrill <a name="iTasteGrill">
+## iTasteGrill 
 iTasteGrill is a mobile application (suitable for smartphones and tablets). It can run on different operational systems such as Android and iOS.
 We designed this application with the final purpose to allow people to meet each other in fairly cheerful barbecue events and sinplify the management and the organization of the barbecue party.
 According to the loaded profile of whoever registered and his preferences on foods and drinks, this App can easily select products suitable to meet users’ expectations while avoiding food waste.
@@ -131,7 +131,7 @@ In addition, all users can easily have advance information on the location, date
 <img src="Images/iTasteGrill.jpg" />
 
 
-## Simulator and Trajectory controller of a mobile robot<a name="traj_ctrl">
+## Simulator and Trajectory controller of a mobile robot
 
 In this project I implemented two main ROS packages:
 
@@ -144,7 +144,7 @@ In the figure below is represented the reference trajectory (in blue) and the ac
 
 <img src="Images/ref_actual_traj.png" />
 
-## Robot Odometry <a name="RobotOdometry">
+## Robot Odometry 
 
 ![odom_to_baselink](Images/odom_to_baselink.png)
 
@@ -160,7 +160,7 @@ Using Robot Operating System (ROS) we have pursued are the following goals:
 
 ![odom_gtpose_comparison.png](Images/odom_gtpose_comparison.png)
 
-## Robot Localization <a name="RobotLocalization">
+## Robot Localization 
 
 [Scout 2.0](https://www.agilex.ai/index/product/id/2) is an indoor and outdoor mobile platform, dedicated to the development of multiple applications in higher education, research and industry.
 
@@ -177,7 +177,7 @@ Using Robot Operating System (ROS) we have pursued are the following goals:
 
 ![map_creation](Images/map_creation.png)
 
-## Missile Simulator <a name="Missile-Simulator">
+## Missile Simulator 
 
 The goal of the project is to design and implement a Vulkan application  of a missile simulator following a parabolic trajectory in a 3D landscape.
 
@@ -226,7 +226,7 @@ In the World View also those commands are possible:
 
  <img src="Images/rocketSimulator3.png" width="600" /> 
 
-## Face Mask Detector <a name="FaceMaskDetector">
+## Face Mask Detector 
 The task of the project was to solve a classification problem using convolutional neural networks. In particular, the task was to distinguish, given an
 image, three cases:
 - No person in the image is wearing a mask
@@ -235,7 +235,7 @@ image, three cases:
 
 ![mask](Images/mask.png)
 
-## Crop Segmentation <a name="CropSegmentation">
+## Crop Segmentation 
 The task of the project was to solve a segmentation problem. In particular, given a RGB image, the task was to
 create a segmentation mask to distinguish between crop, weeds, and background.
 
@@ -243,15 +243,19 @@ create a segmentation mask to distinguish between crop, weeds, and background.
 
 ![crop2](Images/crop2.png) 
     
-## Visual Question Answering <a name="VisualQuestionAnswering">
+## Visual Question Answering 
 The task of the project was to solve a visual question answering (VQA) problem. Given an image and a question,
 the goal was to provide the correct answer.
 
 ![VQA](Images/VQA.png) 
 
-## Santorini Game <a name="SantoriniGame">
+## Santorini Game 
 
-Enjoy a unique gaming experience with the digital version of the tabletop game Santorini 
+Introducing "Santorini: Digital Odyssey" - an enticing digital adaptation of the revered tabletop game, Santorini! Immerse yourself in a realm where ancient mythology converges with technology, now available for engaging online multiplayer gameplay.
+
+Embark on a strategic journey where you assume the mantle of a Greek deity, guiding your devoted followers in a fervent race to construct majestic towers atop the mythical island of Santorini. The primary objective is to be the first to ascend to celestial heights and claim victory. This captivating game offers a harmonious blend of tactical planning, quick-wittedness, and astute maneuvers, rendering it a compelling experience for players of all proficiencies.
+
+Developed using Apache Maven and programmed with Java, the game delivers a seamless online gaming experience, facilitating challenging encounters with acquaintances, family, or enthusiasts across the global spectrum. JavaFX framework has been used for the graphical user interface, the game showcases visually resplendent aesthetics that breathe life into the enchanting realm of Santorini.
 
 ![santorini1](Images/santorini1.png)
     
@@ -259,7 +263,7 @@ Enjoy a unique gaming experience with the digital version of the tabletop game S
     
 ![santorini3](Images/santorini3.png)
 
-## Improved NEQR Compression <a name="ImprovedNEQRCompression">
+## Improved NEQR Compression 
 Writing a paper on images compression in Quantum Computers and relative implementation.
 
 <p align="center">
@@ -269,18 +273,24 @@ Writing a paper on images compression in Quantum Computers and relative implemen
 *This paper presents the implementation of NEQR and its compression. The aim of the paper is to highlight the practical limits of the
 compression theorized so far and to propose an improvement which can be implemented grouping CNOT gates that have the same control information. At the end of the report we present some results we obtain highlighting the improvement achieved in the compression phase.*
 
+![NEQR](Images/NEQR.png)
 
-## CLUP <a name="CLup">
+
+## CLUP 
 
 Design Document (DD) and Requirement Analysis and Specification Document (RASD) of an application (CLup) which help store managers to regulate the
 influx of people in the building monitoring entrances to comply with the coronavirus safety regulations.
 Moreover the application has the goal to prevent people from waiting outside the store safeguarding clients health and not wasting their time.
 
+![RASD_DD](Images/RASD_DD.JPG)
 
-## Working Zone <a name="WorkingZone">
+
+## Working Zone 
 The project is based on the low power dissipation coding method called "Working Zone".
 Through this type of coding it is possible to transform an address according to the belonging to certain intervals (Working Zones).
 The module is implemented using VHDL. The module reads the address to be encoded and the base addresses of the Working Zones and it outputs the encoded address.
+
+![WZ2](Images/WZ2.JPG)
 
 A Working Zone is characterized by :
 - Base address (first address that identifies the Working Zone, from 00000000 to 11111100)
@@ -306,12 +316,10 @@ address 9 of the memory.
         - 0010 (offset = 1)
         - 0100 (offset = 2)
         - 1000 (offset = 3)
-
-    ## Thumb Led
+![WZ1](Images/WZ1.JPG) 
+ ## Thumb Led
 
 https://user-images.githubusercontent.com/47597693/158889676-5202d286-a42f-43c0-abf5-110485148884.mp4
-
-### <a name="ThumbLed">
 
 One week project in which I implemented a Convolutional Neural Network model which was able to distinguish three different classes
 - Thumb UP
