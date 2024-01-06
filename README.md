@@ -100,16 +100,10 @@ Smart Forest is a collaborative project developed by Politecnico di Milano and t
 
 https://user-images.githubusercontent.com/47597693/218736048-5434f455-2131-40be-b1f7-8a42c1cd1b65.mp4
 
-## P-HUG 
+## PHUG 
 According to surveys and research the haptic sense is a significant aspect of human wellbeing. The experience received as a result of contact with another living creature like hugs stimulates serotonin production. High serotonin levels improve mood, make people feel better, and help having better sleep. Nowadays people are more linked than ever before as a result of the developing trend of technology. While technology has helped to bridge the gap, it has not been able to eliminate all the barriers imposed by distance. Our initiative primarily aims to bridge this gap by creating a product that sends a haptic hug from one device (Giffy: the puppet) to another one (the Jacket). The embrace and caress from the puppet is transfered via a wifi connection to the wearer of the jacket. The wearer can feel three major sensations: vibration achieved by vibration motors simulating a moving caress, pressure from an inflatable chamber simulating a hug, and a constant warm feeling from a resistive wire. Our goal is not to replace an actual embrace, but to help people that live apart and cannot hold their loved ones having a fraction of that so desired contact.
 
-<img src="Images/P'hug.png" />
-
-### Electronics organization
-Here are reported the wiring schemas for the two devices
-#### `Giffy`
-<img src="Images/giffy.png" />
-Built around an `Arduino Mkr1000 wifi`
+Giffy built around an `Arduino Mkr1000 wifi`
 
 Input:
 - 3 Force sensitive resistors to simulate the caress
@@ -122,11 +116,7 @@ Output:
 - Speaker
 - Integrated Wifi module (ATSAMW25) of Arduino Mkr1000 wifi
 
-<img src="Images/Client_wiring.png" />
-
-#### `The Jacket`
-<img src="Images/jacket.png" />
-Built around an `Adafruit Feather Huzzah`
+The Jacket Built around an `Adafruit Feather Huzzah`
 
 Input:
 - Integrated Wifi module (ESP8266) of Adafruit Feather Huzzah 
@@ -137,17 +127,20 @@ Output:
 - Air pump to inflate the chamber around the waist to simulate the hug
 - Heating resistance activated via a relè
 
-<img src="Images/Server_wiring.png" />
-
-### Code organization
 All the code has been written following the object oriented programming model with the help of the platform `PlatformIO`.
 The main idea is to build a client-server model to receive the information from Giffy and send it to the jacket that operates according to that.
 
-The code can be seen in the folders [Client](/Client/) for Giffy and [Server](/Server/) for the Jacket.
+<img src="Images/P'hug.png" />
 
-### Team
+<img src="Images/giffy.png" />
 
- <img src="Images/Team Picture.jpg" width="600" /> 
+<img src="Images/Client_wiring.png" />
+
+<img src="Images/jacket.png" />
+
+<img src="Images/Server_wiring.png" />
+
+<img src="Images/Team Picture.jpg" width="600" /> 
 
 
 ## iTasteGrill 
@@ -175,8 +168,6 @@ In the figure below is represented the reference trajectory (in blue) and the ac
 
 ## Robot Odometry 
 
-![odom_to_baselink](Images/odom_to_baselink.png)
-
 [Scout 2.0](https://www.agilex.ai/index/product/id/2) is an indoor and outdoor mobile platform, dedicated to the development of multiple applications in higher education, research and industry.
 
 In this project we are given some recorded data about the robot: speed of the 4 motors, odometry provided by the manufacturer and the ground truth pose of the robot acquired with [OptiTrack](https://www.optitrack.com/applications/robotics).
@@ -186,6 +177,8 @@ Using Robot Operating System (ROS) we have pursued are the following goals:
 - use dynamic reconfigure to select between integration methods (Euler/Runge-Kutta);
 - write 2 services to reset the odometry to (0,0,0) or to a certain pose (x,y,θ)
 - publish a custom message with odometry value and type of integration.
+
+![odom_to_baselink](Images/odom_to_baselink.png)
 
 ![odom_gtpose_comparison.png](Images/odom_gtpose_comparison.png)
 
@@ -209,10 +202,6 @@ Using Robot Operating System (ROS) we have pursued are the following goals:
 ## Missile Simulator 
 
 The goal of the project is to design and implement a Vulkan application  of a missile simulator following a parabolic trajectory in a 3D landscape.
-
- <img src="Images/rocketSimulator2.png" width="600" /> 
-
-### Commands
 
 Here a table with the main functionalities of the application:
 
@@ -253,7 +242,7 @@ In the World View also those commands are possible:
 | Q				| turn the camera counterclockwise	|
 | E				| turn the camera clockwise			|
 
- <img src="Images/rocketSimulator3.png" width="600" /> 
+<img src="Images/rocketSimulator2.png" width="600" /> 
 
 ## Face Mask Detector 
 The task of the project was to solve a classification problem using convolutional neural networks. In particular, the task was to distinguish, given an
@@ -319,8 +308,6 @@ The project is based on the low power dissipation coding method called "Working 
 Through this type of coding it is possible to transform an address according to the belonging to certain intervals (Working Zones).
 The module is implemented using VHDL. The module reads the address to be encoded and the base addresses of the Working Zones and it outputs the encoded address.
 
-![WZ2](Images/WZ2.JPG)
-
 A Working Zone is characterized by :
 - Base address (first address that identifies the Working Zone, from 00000000 to 11111100)
 - Size (fixed of 4 addresses including the base address)
@@ -347,9 +334,10 @@ address 9 of the memory.
         - 1000 (offset = 3)
         
 ![WZ1](Images/WZ1.JPG) 
- ## Thumb Led
+![WZ2](Images/WZ2.JPG)
 
-https://user-images.githubusercontent.com/47597693/158889676-5202d286-a42f-43c0-abf5-110485148884.mp4
+
+ ## Thumb Led
 
 One week project in which I implemented a Convolutional Neural Network model which was able to distinguish three different classes
 - Thumb UP
@@ -358,5 +346,7 @@ One week project in which I implemented a Convolutional Neural Network model whi
 
 The predicted class is then sent via Bluetooth to the Raspberry Pi. 
 An application, running on the Raspberry, processes the data received and based on what receives turns on a specific led.
+
+https://user-images.githubusercontent.com/47597693/158889676-5202d286-a42f-43c0-abf5-110485148884.mp4
 
 
