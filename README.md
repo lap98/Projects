@@ -58,6 +58,12 @@ of the mobile base when the manipulator faces
 physical limitations that prevent the interaction
 with the target object. 
 
+
+
+https://github.com/lap98/Projects/assets/47597693/a111c7c9-9bde-40dd-8f74-b0af8f3dd463
+
+
+
 ## Deep RL based Robust Quadcopter Stabilization System
 Reinforcement learning has been steadily growing in
 popularity for few years. Notable applications are in the
