@@ -28,36 +28,27 @@ Feel free to contact me if you want to know more.
 
 ## Design and Development of a Mobile Manipulator System for Industrial Tasks
 
-The project presents an implementation of a manipulator system for autonomous inspection and
-button interaction in industrial settings. 
-Beyond the primary goal of gauges inspection and emergency button interaction, the study investigates
-methodologies that offer applicability and scalability in order to tackle multiple types of tasks with different objects and various scenarios.
+In many industrial scenarios, monitoring critical parameters is an essential task. A specific task of this type is the inspection of pressure gauges. Traditional methods of gauge inspections demand human time effort. Therefore, the system’s goal is to use a mobile manipulator to autonomously navigate industrial environments, reach designated inspection stations, and read gauge values. The system has to respond dynamically to anomalous readings by pressing an emergency button. During gauge inspections, the manipulator has to autonomously explore the environment and detect gauges or markers with a high level of accuracy. On the other hand, button press operations need a precise estimation of the position and orientation of the button to enable the interaction between the manipulator and the button itself. For both inspections and button interaction, the system has to consider the potential presence of obstacles in the environment. 
+
+To perform these tasks, a complex software architecture has to be implemented that integrates localization, mapping, autonomous navigation, perception, and autonomous manipulation. This project uniquely addresses the challenges of autonomous manipulator inspection and manipulator interaction. While the primary focus is on gauge inspections and button operations, the study explores a generalized methodology that can be used for different types of objects and in various scenarios, promoting adaptability and scalability for a wide range of applications.
+
+The first phase of developing an efficient mobile manipulator system involves object detection. The system has to be able to recognize and classify objects for subsequent
+decision-making processes. 
+
+The second phase involves the estimation of the object pose in three-dimensional space.
+This is particularly important for object interaction where the manipulator has to approach the object in a specific position and with a specific orientation. The decision of how to implement a pose estimation algorithm and what sensors to use is central to achieving an accurate estimation. 
+
+The third phase involves the physical movement of the manipulator end-effector towards the target object. To execute this phase, a planner has a fundamental role in computing the inverse kinematics and planning the trajectory. During trajectory execution, especially in button interaction scenarios, a feedback control mechanism is essential to regulate the manipulator approach. Furthermore, the system has to detect static or dynamic obstacles
+and avoid potential collisions using depth sensors like cameras and lidars. 
+
+Another important aspect is estimating a feasible position and orientation of the mobile base when the manipulator cannot interact with the target object due to some physical limitations. This project is carried out in collaboration with Edison, an Italian energy provider company. Edison participates in this project providing a practical industrial perspective, allowing to validate the model efficacy in actual industrial scenarios. The project aims to contribute not only to academic research but also to real-world scenarios.
+
 
 <img src="Images/scout.jpeg" />
 
-The development process is delineated into distinct
-phases. The initial phase involves object detection,
-in which the system must recognize and classify objects. 
 
-The subsequent phase focuses
-on the implementation of a pose estimation algorithm
-to estimate the object’s position and
-orientation in the three-dimensional space. 
 
 <img src="Images/object_manipulator.png" />
-
-The third phase focuses on the physical movement of
-the manipulator end-effector towards the target
-object. This involves trajectory planning and
-obstacle avoidance. In scenarios involving button
-interaction, a feedback control mechanism
-to stop the manipulator is presented. 
-
-An additional aspect we considered in the study is the estimation of a feasible position and orientation
-of the mobile base when the manipulator faces
-physical limitations that prevent the interaction
-with the target object. 
-
 
 
 https://github.com/lap98/Projects/assets/47597693/a111c7c9-9bde-40dd-8f74-b0af8f3dd463
