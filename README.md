@@ -8,6 +8,7 @@ Feel free to contact me if you want to know more.
 
 | Project | Link |
 | ------ | ------ |
+| [Design and Development of a Mobile Manipulator System for Industrial Tasks](#design-and-development-of-a-mobile-manipulator-system-for-industrial-tasks)| Private |
 | [Deep RL based Quadcopter Stabilization](#deep-rl-based-robust-quadcopter-stabilization-system)| [QuadcopterStabilization](https://github.com/lap98/RL-Drone-Stabilization)|
 | [P-Hug](#P-Hug)| [P-Hug](https://github.com/AlessandroBarbiero/Robotics-and-Design-project)|
 | [iTasteGrill](#itastegrill)| Private |
@@ -24,6 +25,38 @@ Feel free to contact me if you want to know more.
 | [Robot Odometry](#RobotOdometry) | Private |
 | [Robot Localization](#RobotLocalization) | Private |
 | [Thumb Led](#ThumbLed)| Private |
+
+## Design and Development of a Mobile Manipulator System for Industrial Tasks
+
+The project presents an implementation of a manipulator system for autonomous inspection and
+button interaction in industrial settings. 
+Beyond the primary goal of gauges inspection and emergency button interaction, the study investigates
+methodologies that offer applicability and scalability in order to tackle multiple types of tasks with different objects and various scenarios.
+
+<img src="Images/scout.jpeg" />
+
+The development process is delineated into distinct
+phases. The initial phase involves object detection,
+in which the system must recognize and classify objects. 
+
+The subsequent phase focuses
+on the implementation of a pose estimation algorithm
+to estimate the object’s position and
+orientation in the three-dimensional space. 
+
+<img src="Images/object_manipulator.png" />
+
+The third phase focuses on the physical movement of
+the manipulator end-effector towards the target
+object. This involves trajectory planning and
+obstacle avoidance. In scenarios involving button
+interaction, a feedback control mechanism
+to stop the manipulator is presented. 
+
+An additional aspect we considered in the study is the estimation of a feasible position and orientation
+of the mobile base when the manipulator faces
+physical limitations that prevent the interaction
+with the target object. 
 
 ## Deep RL based Robust Quadcopter Stabilization System
 Reinforcement learning has been steadily growing in
